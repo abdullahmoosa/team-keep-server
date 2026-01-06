@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from database import supabase
 
 router = APIRouter(
-    tags=["Users"]
+    tags=["users"]
 )
 
 @router.post("/create-user")
